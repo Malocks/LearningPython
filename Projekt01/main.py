@@ -1,11 +1,13 @@
-# Hello world!
+"""
+This module is to ask and response
+"""
 
 # Create a variable with a string
-question = "Whats your name?"
+QUESTION = "Whats your name?"
 
 # Create a variable with the input function to ask for a name
-name = input(question)
+name = input(QUESTION)
 # Concatenation strings using the format method
-answerStr = "Hello,{}! Welcome to Learn Python.".format(name)
+ANSWER_STR = "Hello,{name}! Welcome to Learn Python."
 # Print the Dialog in the console
-print(answerStr)
+print(ANSWER_STR)
